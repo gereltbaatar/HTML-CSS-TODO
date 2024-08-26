@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+}
+#container {
+  border-style: solid;
+  color: green;
+  height: 400px;
+  width: 1200px;
+}
+.inline {
+  display: block;
+}
+.block {
+  display: inline;
+}

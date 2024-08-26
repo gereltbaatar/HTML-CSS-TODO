@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+}
+
+h1 {
+  margin: 30px;
+  color: white;
+}
+
+body {
+  background-color: rgb(37, 126, 209);
+}
+
+#etseg {
+  border-style: solid;
+  width: 1040px;
+  height: 828px;
+  background-color: white;
+}
+
+.lisbon {
+  border-style: solid;
+  display: inline-block;
+  width: 510px;
+  height: 200px;
+  margin: 3px;
+  background-color: rgb(37, 126, 209);
+  text-align: center;
+}
+
+.tom3 {
+  border-style: solid;
+  display: inline-block;
+  width: 510px;
+  height: 200px;
+  margin-left: 3px;
+  background-color: violet;
+  text-align: center;
+}
+
+.paris {
+  border-style: solid;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  background-color: aqua;
+  text-align: center;
+}
+
+.belrade {
+  border-style: solid;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  background-color: rgb(68, 19, 115);
+  text-align: center;
+}
+
+.moscow {
+  border-style: solid;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  background-color: brown;
+  text-align: center;
+}
+
+.tel-aviv {
+  border-style: solid;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  background-color: rgb(224, 83, 40);
+  text-align: center;
+}
+
+.cair {
+  border-style: solid;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.new-york {
+  border-style: solid;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  background-color: rgb(133, 222, 133);
+  text-align: center;
+}
+
+.new-dilhe {
+  border-style: solid;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin-left: 3px;
+  background-color: rgb(107, 122, 104);
+  text-align: center;
+}
+
+.tokyo {
+  border-style: solid;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin-left: 3px;
+  background-color: green;
+  text-align: center;
+}
+.tom2 {
+  border-style: solid;
+  width: 1030px;
+  height: 200px;
+  margin: 3px;
+  background-color: rgb(102, 69, 97);
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+h3 {
+  margin: 30px;
+  color: white;
+}

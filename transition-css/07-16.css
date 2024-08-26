@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 1000px;
+  background-color: aquamarine;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    background-color: green;
+  }
+}
+
+@media only screen and (max-width: 979px) {
+  .container {
+    background-color: gainsboro;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .container {
+    background-color: blueviolet;
+  }
+}

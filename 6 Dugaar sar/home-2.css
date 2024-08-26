@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+}
+
+h3 {
+  margin: 20px;
+  color: black;
+}
+
+#q1 {
+  border-style: solid;
+  background-color: orange;
+  color: orange;
+}
+
+.q2 {
+  border-style: solid;
+  background-color: aqua;
+  margin: 20px;
+  color: aqua;
+}
+.q3 {
+  border-style: solid;
+  background-color: brown;
+  margin: 20px;
+  color: brown;
+}
+
+.q4 {
+  border-style: solid;
+  background-color: aqua;
+  color: aqua;
+}
+
+li {
+  color: black;
+}
+
+.w1 {
+  color: red;
+  font-size: 40px;
+}
+
+.w1 {
+  color: blue;
+  font-size: 40px;
+  margin: 5px;
+}
+
+.w2 {
+  color: red;
+  font-size: 40px;
+  margin: 5px;
+}
+
+.w3 {
+  color: yellow;
+  font-size: 40px;
+  margin: 5px;
+}

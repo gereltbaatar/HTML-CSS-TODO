@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 300px;
+}
+
+.container-input {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+button {
+  outline: none;
+  width: 120px;
+  height: 40px;
+  font-family: "Avro";
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+}

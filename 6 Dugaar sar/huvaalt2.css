@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 30px;
+  color: white;
+}
+
+body {
+  background-color: rgb(37, 126, 209);
+}
+
+#border1 {
+  border-style: solid;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  height: 800px;
+  background-color: white;
+  flex-direction: column;
+}
+
+.MOR {
+  border-style: solid;
+  height: 25%;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  text-align: center;
+}
+
+.lisbon {
+  display: inline-block;
+  border-style: solid;
+  width: 50%;
+  background-color: rgb(37, 126, 209);
+}
+
+.paris {
+  display: inline-block;
+  border-style: solid;
+  width: 25%;
+  background-color: aqua;
+}
+
+.belrade {
+  display: inline-block;
+  border-style: solid;
+  width: 25%;
+  background-color: rgb(68, 19, 115);
+}
+
+.moscow {
+  display: inline-block;
+  border-style: solid;
+  width: 25%;
+  background-color: brown;
+}
+
+.tel {
+  display: inline-block;
+  border-style: solid;
+  width: 25%;
+  background-color: rgb(224, 83, 40);
+}
+
+.cair {
+  display: inline-block;
+  border-style: solid;
+  width: 25%;
+  background-color: rgb(216, 197, 49);
+}
+
+.york {
+  display: inline-block;
+  border-style: solid;
+  width: 25%;
+  background-color: rgb(133, 222, 133);
+}
+
+.new {
+  display: inline-block;
+  border-style: solid;
+  width: 25%;
+  background-color: rgb(107, 122, 104);
+}
+
+.san {
+  display: inline-block;
+  border-style: solid;
+  width: 50%;
+  background-color: violet;
+}
+
+.tokyo {
+  display: inline-block;
+  border-style: solid;
+  width: 25%;
+  background-color: green;
+}
+
+.sydney {
+  display: inline-block;
+  border-style: solid;
+  width: 100%;
+  background-color: rgb(102, 69, 97);
+}
+
+h3 {
+  color: white;
+  margin: 30px;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+  padding-top: 30px;
+}

@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 35px;
+  width: 500px;
+  height: 750px;
+  border: solid black;
+  border-radius: 60px;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 5px 5px 5px rgb(69, 69, 69);
+}
+
+.img-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 250px;
+  background-color: #dc2d84;
+  border-top-left-radius: 55px;
+  border-top-right-radius: 55px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(./chalenga-1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.name-1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.name-2 {
+  font-size: 15px;
+  color: #8e8e8e;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.text {
+  width: 100%;
+  height: 100px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.batton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+  height: 100px;
+}
+
+.button {
+  width: 160px;
+  height: 55px;
+  border-radius: 40px;
+}
+
+.b-1 {
+  background-color: #dc2d84;
+  font-size: 20px;
+  color: aliceblue;
+  border: solid #dc2d84;
+}
+
+.b-2 {
+  background-color: white;
+  border: solid #8e8e8e;
+  color: #8e8e8e;
+  font-size: 20px;
+}

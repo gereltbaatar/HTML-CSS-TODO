@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Cedarville+Cursive&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Todo-1.css" />
+    <title>TO DO 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main_container">
+        <div class="button_container">
+          <button id="add_button">Add task</button>
+        </div>
+        <div class="card_container">
+          <div class="card card1">
+            <div class="title">
+              <div class="wheel one"></div>
+              <p class="text">To do</p>
+              <p class="numberTODO">0</p>
+            </div>
+            <div class="new_about" id="todo_tasks_container"></div>
+          </div>
+          <div class="card card2">
+            <div class="title">
+              <div class="wheel two"></div>
+              <p class="text">In progress</p>
+              <p class="numberINPR">0</p>
+            </div>
+            <div class="new_about" id="inprogress_tasks_container"></div>
+          </div>
+          <div class="card card3">
+            <div class="title">
+              <div class="wheel three"></div>
+              <p class="text">Done</p>
+              <p class="numberDONE">0</p>
+            </div>
+            <div class="new_about" id="done_tasks_container"></div>
+          </div>
+          <div class="card card4">
+            <div class="title">
+              <div class="wheel four"></div>
+              <p class="text">Blocked</p>
+              <p class="numberBLCD">0</p>
+            </div>
+            <div class="new_about" id="blocked_tasks_container"></div>
+          </div>
+        </div>
+      </div>
+      <div class="addTask">
+        <div class="small_container2">
+          <p class="title_inter">Inter Task</p>
+          <input
+            class="task_name"
+            placeholder="Task name..."
+            type="text"
+            value=""
+          />
+          <select class="select" id="status">
+            <option disabled selected hidden>Select Status</option>
+            <option value="todo">To do</option>
+            <option value="inprogress">In progress</option>
+            <option value="done">Done</option>
+            <option value="blocked">Blocked</option>
+          </select>
+          <input id="sub_input" type="submit" value="submit" />
+        </div>
+      </div>
+    </div>
+    <script src="Todo-1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+.box {
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.box:hover {
+  width: 500px;
+  height: 50px;
+  background-color: red;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.box {
+  transition-property: all;
+  transition-duration: 1500ms;
+  transition-timing-function: linear;
+  transition-delay: 500ms;
+}
+
+.t1 {
+  transition: all 1500ms ease;
+}
+
+.t2 {
+  transition: all 1500ms ease-in;
+}
+
+.t3 {
+  transition: all 1500ms ease-in-out;
+}
+
+.t4 {
+  transition: all 1500ms steps;
+}
+
+.t5 {
+  transition: all 1500ms ease;
+}
+
+.t6 {
+  transition: all 1500ms ease;
+}

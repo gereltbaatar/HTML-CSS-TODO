@@ -1,0 +1,262 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 150px;
+  height: 31px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  animation: bg 4s linear 500ms infinite alternate;
+}
+
+.dugui {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background-color: black;
+  animation: dugui 4s linear 500ms infinite alternate;
+}
+
+@keyframes dugui {
+  from {
+    background-color: #f5b027;
+  }
+
+  to {
+    background-color: #f5f3ce;
+    transform: translate(120px);
+  }
+}
+
+@keyframes bg {
+  from {
+    background-color: #87ceeb;
+  }
+
+  to {
+    background-color: #1e2e34;
+  }
+}
+
+.loader-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 105px;
+  height: 105px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.q1 {
+  width: 30px;
+  height: 95px;
+  border-radius: 15px;
+  background-color: #c90b00;
+  animation: er1 2s linear 200ms infinite alternate;
+}
+
+@keyframes er1 {
+  from {
+    transform: rotateX(1turn);
+  }
+}
+
+.q2 {
+  width: 30px;
+  height: 95px;
+  border-radius: 15px;
+  background-color: #c90b00;
+  animation: er2 2s linear 400ms infinite alternate;
+}
+
+@keyframes er2 {
+  from {
+    transform: rotateX(1turn);
+  }
+}
+
+.q3 {
+  width: 30px;
+  height: 95px;
+  border-radius: 15px;
+  background-color: #c90b00;
+  animation: er3 2s linear 600ms infinite alternate;
+}
+
+@keyframes er3 {
+  from {
+    transform: rotateX(1turn);
+  }
+}
+
+.shuljee {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 60px;
+  height: 55px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.shon_1 {
+  width: 10px;
+  height: 10px;
+  border: solid black;
+  animation: w1 10s linear 100ms infinite alternate;
+}
+
+@keyframes w1 {
+  from {
+    background-color: #1e2e34;
+  }
+}
+
+.shon_2 {
+  width: 10px;
+  height: 20px;
+  border: solid black;
+  animation: w2 8s linear 2s infinite alternate;
+}
+
+@keyframes w2 {
+  from {
+    background-color: #1e2e34;
+  }
+}
+
+.shon_3 {
+  width: 10px;
+  height: 30px;
+  border: solid black;
+  animation: w3 6s linear 4s infinite alternate;
+}
+
+@keyframes w3 {
+  from {
+    background-color: #1e2e34;
+  }
+}
+
+.shon_4 {
+  width: 10px;
+  height: 40px;
+  border: solid black;
+  animation: w4 4s linear 6s infinite alternate;
+}
+
+@keyframes w4 {
+  from {
+    background-color: #1e2e34;
+  }
+}
+
+.shon_5 {
+  width: 10px;
+  height: 50px;
+  border: solid black;
+  animation: w5 2s linear 8s infinite alternate;
+}
+
+@keyframes w5 {
+  from {
+    background-color: #1e2e34;
+  }
+}
+
+.loader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 30px;
+  gap: 5px;
+}
+
+.brnh3 {
+  width: 20px;
+  height: 20px;
+  border: solid black;
+  border-radius: 50%;
+  animation: l11 3s linear infinite;
+}
+
+@keyframes l11 {
+  25% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateX(-30px);
+  }
+}
+
+.brnh2 {
+  width: 20px;
+  height: 20px;
+  border: solid black;
+  border-radius: 50%;
+  animation: l12 3s linear 1s infinite;
+}
+
+@keyframes l12 {
+  25% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateX(-30px);
+  }
+}
+
+.brnh1 {
+  width: 20px;
+  height: 20px;
+  border: solid black;
+  border-radius: 50%;
+  animation: l13 3s linear 1.5s infinite;
+}
+
+@keyframes l13 {
+  25% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateX(-30px);
+  }
+}
+/* @keyframes l11 {
+    25% {background-position:100% 0   ,0 100%,100% 100%}
+    50% {background-position:100% 0   ,0 0   ,100% 100%}
+    75% {background-position:100% 0   ,0 0   ,0    100%}
+    100%{background-position:100% 100%,0 0   ,0    100%}
+}*/

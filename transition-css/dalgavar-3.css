@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: all 2s linear 300ms;
+}
+
+.box:hover {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 20px solid black;
+  background-color: brown;
+  transform: rotate(360deg);
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+}
+#hur1 {
+    margin: 50px;
+    width: 360px;
+    height: 600px;
+}
+#hur2 {
+    border-style: solid;
+    width: 360px;
+    height: 526px;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+}
+#h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+#h {
+    padding: 1px;
+    font-size: x-large;
+    color: gray;
+    text-align: center;
+}
+p {
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
+.logo {
+    border-width: 1px;
+    text-align: center;
+}
+button {
+    margin-top: 40px;
+    width: 360px;
+    background-color: black;
+}
+h4 {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 10px;  
+}

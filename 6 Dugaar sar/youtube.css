@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+.mor {
+  display: flex;
+
+  gap: 20px;
+  width: 800px;
+  height: 800px;
+  border: solid blue;
+}
+
+.video_container {
+  width: 150px;
+  height: 150px;
+  border: 1px;
+}

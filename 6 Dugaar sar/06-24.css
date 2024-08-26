@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  border: 2px solid red;
+  position: relative;
+  margin: 60px;
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.n1 {
+  background-color: blue;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.n2 {
+  background-color: aquamarine;
+  position: absolute;
+  left: 20px;
+  top: 60px;
+  z-index: 1;
+}
+
+.n3 {
+  background-color: burlywood;
+  position: absolute;
+  left: 20px;
+  top: 120px;
+}
+
+.n4 {
+  background-color: violet;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}

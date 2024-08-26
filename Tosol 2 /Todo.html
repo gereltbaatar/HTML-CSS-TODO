@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Todo.css" />
+    <title>TO DO</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="filter">
+        <div class="buttonContainer">
+          <button id="buttonAdd">Add task</button>
+        </div>
+        <div class="mainContainer">
+          <div class="card card1">
+            <div class="title">
+              <div class="wheel one"></div>
+              <div class="text">To do</div>
+              <div class="number">5</div>
+            </div>
+            <div class="new"></div>
+          </div>
+          <div class="card card2">
+            <div class="title">
+              <div class="wheel two"></div>
+              <div class="text">In progress</div>
+              <div class="number">5</div>
+            </div>
+            <div class="new2"></div>
+          </div>
+          <div class="card card3">
+            <div class="title">
+              <div class="wheel three"></div>
+              <div class="text">Done</div>
+              <div class="number">5</div>
+            </div>
+            <div class="new3"></div>
+          </div>
+          <div class="card card4">
+            <div class="title">
+              <div class="wheel four"></div>
+              <div class="text">Blocked</div>
+              <div class="number">5</div>
+            </div>
+            <div class="new4"></div>
+          </div>
+        </div>
+      </div>
+      <div id="addTask">
+        <div class="smallCon">
+          <div class="smallCon1">
+            <div class="enterTASK">Inter Task</div>
+            <input
+              class="taskName"
+              placeholder="Task name..."
+              type="text"
+              value=""
+            />
+            <select class="select" id="status">
+              <option disabled selected hidden>Select Status</option>
+              <option value="todo">To do</option>
+              <option value="Inprogress">In progress</option>
+              <option value="Done">Done</option>
+              <option value="Blocked">Blocked</option>
+            </select>
+          </div>
+          <input id="submit" type="submit" value="submit" />
+        </div>
+      </div>
+      <div id="editTask">
+        <div class="smallCon0">
+          <div class="smallCon1">
+            <div class="enterTASK">edit task</div>
+            <input
+              class="editValue"
+              placeholder="Edit task name"
+              type="text"
+              value=""
+            />
+          </div>
+          <input id="editTaskName" type="button" value="Edit" />
+        </div>
+      </div>
+    </div>
+    <script src="Todo.js"></script>
+  </body>
+</html>

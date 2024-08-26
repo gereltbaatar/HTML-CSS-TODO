@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bc: #a06060;
+  --fontcolor: #dbedf3;
+  --shdow: #da0463;
+  --border: #404b69;
+}
+body {
+  background-color: var(--bc);
+}
+.title {
+  font-size: 5rem;
+  font-family: cursive;
+  font-weight: 900;
+  color: var(--fontcolor);
+  text-shadow: 3px 0 var(--shdow);
+}
+
+.container {
+  text-align: center;
+}
+
+.container7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 170px;
+  margin: 10% auto;
+}
+
+.key {
+  outline: none;
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  font-weight: 900;
+  color: #da0463;
+  font-family: "Avro", cursive;
+  text-shadow: 3px 0 #dbedf3;
+  line-height: 2;
+  font-size: 5rem;
+  margin: 12px;
+  padding: 1px 6px;
+  border: 10px solid var(--border);
+}
+
+.tochW {
+  background-image: url(./tom1.png);
+}
+
+.tochA {
+  background-image: url(./tom2.png);
+}
+
+.tochS {
+  background-image: url(./tom3.png);
+}
+
+.tochD {
+  background-image: url(./tom4.png);
+}
+
+.tochJ {
+  background-image: url(./snare.png);
+}
+
+.tochK {
+  background-image: url(./crash.png);
+}
+
+.tochL {
+  background-image: url(./kick.png);
+}
+/* 
+.pressed :after {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+} */

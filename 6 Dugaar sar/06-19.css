@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.MOR_1 {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+  width: 100px;
+  height: 100px;
+}
+
+.MOR_3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.MOR_4 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.grow {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.grow_1 {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 20px;
+}
+
+p {
+  font-size: 25px;
+  color: rgb(65, 93, 23);
+}

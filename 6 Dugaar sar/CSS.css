@@ -1,0 +1,26 @@
+h1{
+    color: black;
+
+}
+span{
+    color: green;
+}
+#h1{
+    color: blue;
+}
+#h2{
+    color: yellow;
+}
+#h3{
+    color: green;
+}
+#h4{
+    color: red;
+}
+.class1{
+    color: red;
+}
+#hur{
+    border-style: solid;
+    border-color: orange;
+}

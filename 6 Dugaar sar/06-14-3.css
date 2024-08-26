@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+}
+
+#hur0 {
+  margin: 40px;
+  border-style: solid;
+  width: 650px;
+  height: 450px;
+  background-color: gray;
+}
+
+#word {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+button {
+  font-size: 20px;
+  margin: 20px;
+}
+
+#hur2 {
+  border-style: solid;
+  background-color: rgb(13, 175, 207);
+  color: white;
+  height: 60px;
+  padding: 20px;
+}
+
+#hur3 {
+  border-style: solid;
+  background-color: rgb(41, 109, 41);
+  color: white;
+  height: 60px;
+  padding: 20px;
+}
+
+#hur4 {
+  border-style: solid;
+  background-color: rgb(209, 86, 86);
+  color: white;
+  height: 60px;
+  padding: 20px;
+}
+input {
+  width: 600px;
+  height: 20px;
+}
+
+.border {
+  text-align: center;
+}

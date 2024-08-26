@@ -1,0 +1,205 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 430px;
+  height: 932px;
+  border-radius: 50px;
+  border: solid black;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 5px 5px 5px rgb(69, 69, 69);
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+}
+
+.grayZuraas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 365px;
+  height: 100%;
+  border: solid gray;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.profileImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-image: url(./profile.3-challenge.jpeg);
+  background-size: cover;
+}
+
+.profileAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  width: 285px;
+  height: 100%;
+  padding-left: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.about {
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+}
+
+.main-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* gap: 4px; */
+  width: 100%;
+  height: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.minu1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  height: 50px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: solid red; */
+  border-radius: 10px;
+  background-color: rgb(201, 221, 254);
+  /* filter: contrast(80%); */
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.about-1 {
+  width: 100px;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.iconDown {
+  margin-left: 185px;
+}
+
+.minu2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  height: 50px;
+}
+
+.minu3 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  height: 50px;
+}
+
+.minu4 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  height: 50px;
+}
+
+.minu5 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  height: 50px;
+}
+
+.main-2-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 0px;
+}
+
+.zuraas-main1-2 {
+  width: 365px;
+  height: 0px;
+  border: solid gray;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.main-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+  padding-top: 30px;
+}
+
+.minu-2-1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 18px;
+}
+
+.minu-2-2 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  height: 50px;
+}
+
+.main-3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 15%;
+}
+
+.icon3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+}
+
+.main-3-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 365px;
+  height: 100%;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 30px;
+  width: 1000px;
+  height: fit-content;
+  border: 1px solid black;
+}
+
+.plus {
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: white;
+  /* background-color: orange; */
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}

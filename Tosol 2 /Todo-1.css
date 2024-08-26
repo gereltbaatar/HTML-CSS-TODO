@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --displayColor: #333333;
+  --displayColor1: #1e1e1e;
+  --aboutColor: #1a1a1a;
+  --cardBC: #010101;
+  --buttonColor: #00a300;
+  --fontColor: #ffffff;
+  --textCOlor: #d9d9d9;
+  --wheelTwo: #a3a300;
+  --wheelTree: #00a300;
+  --wheelFour: #a30000;
+  --numberColor: #999999;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--displayColor1);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button_container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding-top: 50px;
+}
+
+#add_button {
+  width: 110px;
+  height: 45px;
+  border: 1px solid var(--displayColor1);
+  border-radius: 4px;
+  padding: 0px 20px 0px 20px;
+  background-color: var(--buttonColor);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--fontColor);
+}
+
+.card_container {
+  display: flex;
+  padding-top: 25px;
+  gap: 20px;
+}
+
+.card {
+  width: 280px;
+  height: 672px;
+  padding: 20px;
+  border: 1px solid var(--displayColor);
+  background-color: var(--cardBC);
+  border-radius: 12px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 240px;
+  height: 42px;
+  padding-bottom: 20px;
+}
+
+.text {
+  width: 200px;
+  height: 100%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--fontColor);
+}
+
+.numberTODO,
+.numberINPR,
+.numberDONE,
+.numberBLCD {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--numberColor);
+}
+
+.wheel {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.one {
+  background-color: var(--textCOlor);
+}
+
+.two {
+  background-color: var(--wheelTwo);
+}
+
+.three {
+  background-color: var(--wheelTree);
+}
+
+.four {
+  background-color: var(--wheelFour);
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 240px;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  background-color: var(--aboutColor);
+}
+
+.check {
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--fontColor);
+  border-radius: 50%;
+}
+
+.about-text {
+  width: 148px;
+  height: 30px;
+  color: var(--textCOlor);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+}
+
+#buttonEdit {
+  border: none;
+  background-color: var(--aboutColor);
+  width: 16px;
+  height: 16px;
+}
+
+#trash {
+  border: none;
+  background-color: var(--aboutColor);
+  width: 16px;
+  height: 16px;
+  margin-bottom: 4px;
+}
+
+.addTask {
+  display: none;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 26, 26, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.small_container2 {
+  width: 370px;
+  height: 376px;
+  border-radius: 16px;
+  padding: 40px;
+  margin-top: 228px;
+  border-radius: 16px;
+  padding: 40px;
+  margin-top: 228px;
+  background-color: var(--displayColor1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title_inter {
+  width: 120px;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--fontColor);
+}
+
+.task_name {
+  width: 290px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--numberColor);
+  background-color: var(--displayColor1);
+  border: 1px solid var(--numberColor);
+  border-radius: 4px;
+}
+
+.select {
+  width: 290px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--numberColor);
+  background-color: var(--displayColor1);
+  border: 1px solid var(--numberColor);
+  border-radius: 4px;
+  padding: 12px;
+}
+
+#sub_input {
+  border: none;
+  width: 290px;
+  height: 45px;
+  padding: 0px 20px 0px 20px;
+  background-color: var(--buttonColor);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 80px;
+  color: var(--fontColor);
+}
+
+.newElement {
+  color: var(--fontColor);
+  background-color: #00a300;
+  height: 100px;
+  width: 100px;
+}

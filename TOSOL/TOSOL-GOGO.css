@@ -1,0 +1,1419 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000;
+  --dolor: #2adb00;
+  --box-1-background: #eeeded;
+  --number: #e00034;
+  --share-number: #8e8e8e;
+  --text: white;
+  --action-color: rgb(142, 142, 142);
+  --blue-batton: #407ce8;
+  --border-color: #f1f1f1;
+  --seen-color: #ffffffcc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  width: 1200px;
+  margin-top: auto;
+}
+
+.share-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-number {
+  color: var(--share-number);
+  font-weight: 500;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.share-number-1 {
+  color: var(--text);
+  font-weight: 500;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.gogo-action-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.gogo-action-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.main-container-section {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 914px;
+}
+
+.gogo-header {
+  display: flex;
+  align-items: center;
+  width: 1180px;
+  height: 89px;
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.gogo-header-nav {
+  display: flex;
+  align-items: center;
+  width: 1100px;
+}
+
+.gogo-header-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.gogo-header-list-medee {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.gogo-header-list-bulan {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.gogo-header-list-uzeh {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.gogo-header-list-songuuli {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #23509e;
+}
+
+.gogo-header-list-language {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+}
+
+li,
+ul {
+  display: inline-block;
+}
+
+.down_icon {
+  width: 13px;
+  height: 16px;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.gogo-header-nav-1 {
+  display: flex;
+  width: 260.52px;
+  height: 50px;
+  margin-left: 72px;
+}
+
+.gogo-header-tsag-agaar {
+  width: 90px;
+  text-align: center;
+}
+
+.gogo-header-zurhai {
+  width: 90px;
+  text-align: center;
+}
+
+.gogo-header-hansh {
+  width: 95px;
+  text-align: center;
+}
+
+.dolor {
+  font-size: 18px;
+  color: var(--dolor);
+}
+
+.gogo-header-text {
+  font-size: 12px;
+  color: var(--black);
+}
+
+.margin {
+  height: 30px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.gogo-header-hansh-1 {
+  width: 4px;
+  height: 21.5px;
+  font-size: 18px;
+  color: rgb(142, 142, 142);
+}
+
+.body_1 {
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.body-1-container {
+  width: 1180px;
+  height: 825px;
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sutalchilga {
+  margin-bottom: 10px;
+}
+
+.gogo-body-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: 385px 283px;
+  row-gap: 20px;
+  column-gap: 15px;
+}
+
+.gogo-body-1-box-1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  grid-column: 1/3;
+  grid-row: 1;
+  background: linear-gradient(90deg, #c6c6c635, white);
+  border-radius: 10px;
+}
+
+.gogo-body-1-box-1-div {
+  width: 503px;
+  height: 275px;
+}
+
+.gogo-body-1-batton {
+  width: 75px;
+  height: 31px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 15px;
+  background: linear-gradient(129deg, #c40097, #d6710b);
+  background-image: linear-gradient(-120deg, #e08100, #c90027);
+  color: var(--box-1-background);
+}
+
+.gogo-body-1-text {
+  width: 100%;
+  height: 118px;
+  margin: 10px 0px 20px;
+  padding: 10px 30px 0px 0px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.gogo-body-1-text-1 {
+  width: 100%;
+  height: 60px;
+  font-size: 13px;
+  color: var(--share-number);
+  margin: 10px 0px 20px;
+}
+
+.gogo-body-1-1-box-action {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 47px;
+  margin-top: 30px;
+}
+
+.gogo-body-1-comment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.emoji {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.emoji-number {
+  color: var(--share-number);
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.gogo-body-1-box-2 {
+  grid-column: 3/5;
+  grid-row: 1;
+  background-image: url(./TOSOL_IMG/320649-03072024-1720006223-1614273030-putin_449083109_7832896720136736_7240903508731066017_n1.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.gogo-body-1-box-3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.gogo-body-1-box-3-img {
+  width: 100%;
+  height: 175px;
+  background-image: url(./TOSOL_IMG/-03072024-1719975329-703385215-tses.jpg);
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.gogo-body-1-box-3-about {
+  width: 100%;
+  height: 44px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.gogo-body-1-box-3-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  height: 22px;
+}
+
+.gogo-body-1-box-4 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.gogo-body-1-box-4-img {
+  width: 100%;
+  height: 175px;
+  background-image: url(./TOSOL_IMG/320590-02072024-1719910932-1538286154-thumbnail.jpg);
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.gogo-body-1-box-4-about {
+  width: 100%;
+  height: 44px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.gogo-body-1-box-4-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  height: 22px;
+}
+
+.gogo-body-1-box-5 {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.gogo-body-1-box-5-img {
+  width: 100%;
+  height: 175px;
+  background-image: url(./TOSOL_IMG/-03072024-1719995270-311799198-mbank.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.gogo-body-1-box-5-about {
+  width: 100%;
+  height: 66px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.gogo-body-1-box-5-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  height: 22px;
+}
+
+.gogo-body-1-box-6 {
+  grid-column: 4;
+  grid-row: 2;
+  background-image: url(./TOSOL_IMG/mamuu.jpg);
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.body_2 {
+  margin-top: 40px;
+}
+
+.gogo-story-container {
+  width: 1180px;
+  height: 280.5px;
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.gogo-story-title {
+  display: flex;
+  align-items: center;
+  width: 1100px;
+  height: 25.5px;
+  font-size: 26px;
+  font-weight: 700;
+  gap: 10px;
+}
+
+.gogo-story-title-span {
+  width: 70px;
+  height: 26px;
+  color: #fff;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 3px;
+  padding-left: 3px;
+  background-color: #00b0f4;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.gogo-story-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 170.5px);
+  grid-template-rows: 235px;
+  column-gap: 15px;
+  margin-top: 18px;
+}
+.gogo-story-box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 1;
+  grid-row: 1;
+  background-image: url(./TOSOL_IMG/paris2024-6684fe7f52eed908618623.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.gogo-story-box-icon {
+  padding: 10px;
+}
+
+.gogo-story-box-text {
+  width: 100%;
+  height: 84px;
+  padding: 10px;
+}
+
+.story-title {
+  width: 100%;
+  color: var(--text);
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.see-result {
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
+
+.gogo-story-box-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 2;
+  grid-row: 1;
+  background-image: url(./TOSOL_IMG/320570-02072024-1719904390-1205159156-mixcollage-02-jul-2024-03-12-pm-871-6684acc26dcbe299069056.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+.gogo-story-box-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 3;
+  grid-row: 1;
+  background-image: url(./TOSOL_IMG/126-gishuun-anhdugaar-chuulgan-34-143632-12127352601-6683ee5cc4a03361937967.jpeg);
+  background-size: cover;
+  border-radius: 5px;
+}
+.gogo-story-box-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 4;
+  grid-row: 1;
+  background-image: url(./TOSOL_IMG/muzei-17-142604-10735304520240702142608-6683e2b19b7a5944504714.jpeg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.gogo-story-box-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 5;
+  grid-row: 1;
+  background-image: url(./TOSOL_IMG/mount-fuji-081913-782338830-6683e27f6e4a3859065813.jpeg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.gogo-story-box-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 6;
+  grid-row: 1;
+  background-image: url(./TOSOL_IMG/mungu-money-20tiindewsger-20k-say-25-145807-11774485401-6683a4e1edfbd121219317.jpeg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.gogo-body-3-news {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1180px;
+  height: 3316px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: auto;
+  margin-top: 50px;
+}
+.gogo-news-list {
+  width: 690px;
+  height: 3166px;
+}
+.gogo-news-list-date {
+  width: 755px;
+  height: 60px;
+  border: solid blue;
+}
+.gogo-news-list-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 30px;
+  width: 690px;
+  height: 150px;
+  margin-top: 30px;
+}
+.gogo-news-list-box-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 30px;
+  width: 690px;
+  height: 150px;
+  margin-top: 40px;
+}
+.gogo-news-list-img {
+  width: 210px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.news-list-img-1 {
+  background-image: url(./TOSOL_IMG/news-list-1.jpg);
+  background-size: cover;
+}
+
+.news-list-img-2 {
+  background-image: url(./TOSOL_IMG/news-list-2.jpg);
+  background-size: cover;
+}
+
+.news-list-img-3 {
+  background-image: url(./TOSOL_IMG/news-list-3.jpeg);
+  background-size: cover;
+}
+
+.news-list-img-4 {
+  background-image: url(./TOSOL_IMG/news-list-4.jpg);
+  background-size: cover;
+}
+
+.news-list-img-5 {
+  background-image: url(./TOSOL_IMG/news-list-5.jpg);
+  background-size: cover;
+}
+
+.gogo-news-list-about {
+  width: 450px;
+  height: 150px;
+}
+
+.gogo-news-list-adout-1 {
+  width: 100%;
+  height: 52px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.gogo-news-list-about-2 {
+  width: 100%;
+  height: 46px;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 10px 0px 15px;
+  color: var(--share-number);
+}
+
+.gogo-news-list-action {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 22px;
+}
+
+.gogo-news-list-action-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  width: 400px;
+  height: 22px;
+}
+
+.gogo-news-list-action-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.gogo-news-list-zar {
+  margin-top: 30px;
+}
+.gogo-news-list-more {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 690px;
+  height: 65px;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  background: #f8f8f8;
+  border: 1px solid #f2f2f2;
+}
+.gogo-news-special {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 3266px;
+  border: 1.5px solid var(--border-color);
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  padding-left: 50px;
+}
+
+.gogo-news-special-box {
+  width: 290px;
+  height: 265px;
+  margin-top: 30px;
+}
+.gogo-news-special-box-1 {
+  width: 290px;
+  height: 265px;
+  margin-top: 40px;
+}
+.gogo-news-special-img {
+  width: 290px;
+  height: 170px;
+  border-radius: 8px;
+}
+
+.special-img-1 {
+  background-image: url(./TOSOL_IMG/special-1.jpg);
+  background-size: cover;
+}
+
+.special-img-2 {
+  background-image: url(./TOSOL_IMG/special2--.jpg);
+  background-size: cover;
+}
+
+.special-img-3 {
+  background-image: url(./TOSOL_IMG/special-4.jpg);
+  background-size: cover;
+}
+
+.special-img-4 {
+  background-image: url(./TOSOL_IMG/special4--.jpg);
+  background-size: cover;
+}
+
+.gogo-news-special-about {
+  width: 290px;
+  height: 60px;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.gogo-news-special-action {
+  width: 290px;
+  height: 20px;
+}
+
+.gogo-news-special-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 290px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.gogo-trend-news-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  width: 340px;
+  height: 88.33px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: -50px;
+  background-color: #fdfaf5;
+  font-size: 20px;
+  font-weight: 700;
+}
+.gogo-trend-news-list {
+  width: 340px;
+  height: 1370px;
+  background-color: #fdfaf5;
+  margin-left: -50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.gogo-trend-news-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 270px;
+  height: 112px;
+  padding-bottom: 20px;
+  border: dashed var(--action-color);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: -15px;
+  margin-bottom: 20px;
+}
+
+.gogo-trend-news-number {
+  width: 26px;
+  height: 91px;
+  margin-right: 15px;
+  font-size: 46px;
+  text-align: center;
+  color: var(--number);
+}
+.gogo-trend-news-number-10 {
+  width: 51px;
+  height: 91px;
+  margin-right: 15px;
+  font-size: 46px;
+  text-align: center;
+  color: var(--number);
+}
+.gogo-trend-news-about-container {
+  width: 230px;
+  height: 91px;
+}
+.gogo-trend-news-about {
+  width: 230px;
+  height: 66px;
+  font-size: 14px;
+  color: var(--black);
+}
+.gogo-trend-news-action {
+  width: 230px;
+  height: 20px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.gogo-body-4-box {
+  width: 1180px;
+  height: 549px;
+  margin: auto;
+  margin-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.gogo-talking-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 1100px;
+  height: 27px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.gogo-talking-body {
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: repeat(2, 48%);
+  width: 1100px;
+  height: 500px;
+  gap: 15px;
+}
+
+.gogo-talking-box-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  background-image: url(./TOSOL_IMG/taking-1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.gogo-talking-about-1 {
+  width: 100%;
+  height: 163px;
+  padding: 30px;
+}
+
+.blue-batton-1 {
+  display: flex;
+  align-items: center;
+  width: 43px;
+  height: 26px;
+  background-color: var(--blue-batton);
+  color: var(--text);
+  font-size: 10px;
+  font-weight: 700;
+  margin: 0px 0px 5px;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.talking-1 {
+  width: 100%;
+  height: 28px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.gogo-talking-delgerengui {
+  width: 100%;
+  height: 34px;
+  margin: 10px 0px 0px;
+  padding: 10px 0px 0px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text);
+  border: 1px solid var(--border-color);
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+.fa-solid {
+  margin-left: 5px;
+}
+
+.gogo-talking-about-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.blue-batton-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 124px;
+  height: 26px;
+  background-color: var(--blue-batton);
+  color: var(--text);
+  margin: 0px 0px 5px;
+  padding: 2px 5px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.blue-batton-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 26px;
+  background-color: var(--blue-batton);
+  color: var(--text);
+  margin: 0px 0px 5px;
+  padding: 2px 5px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.blue-batton-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 79px;
+  height: 26px;
+  background-color: var(--blue-batton);
+  color: var(--text);
+  margin: 0px 0px 5px;
+  padding: 2px 5px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.talking-2 {
+  width: 224px;
+  height: 55px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 18px !important;
+}
+
+.gogo-talking-box-2 {
+  grid-column: 3;
+  grid-row: 1;
+  background-image: url(./TOSOL_IMG/taking-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.gogo-talking-box-3 {
+  grid-column: 4;
+  grid-row: 1;
+  background-image: url(./TOSOL_IMG/taking-3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.gogo-talking-box-4 {
+  grid-column: 3;
+  grid-row: 2;
+  background-image: url(./TOSOL_IMG/taking-4.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.gogo-talking-box-5 {
+  grid-column: 4;
+  grid-row: 2;
+  background-image: url(./TOSOL_IMG/taking-5.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.gogo-talking-about {
+  width: 264px;
+  height: 130px;
+  padding: 20px 20px 25px;
+}
+
+.gogo-body-5-box {
+  width: 1180px;
+  height: 406px;
+  margin: auto;
+  margin-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.gogo-style-header {
+  width: 1100px;
+  height: 26px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.gogo-style-body {
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: 360px;
+  width: 1100px;
+  height: 360px;
+  gap: 15px;
+}
+.style-img-1 {
+  background-image: url(./TOSOL_IMG/style-1.jpeg);
+  background-size: cover;
+}
+
+.style-img-2 {
+  background-image: url(./TOSOL_IMG/style-2.jpg);
+  background-size: cover;
+}
+
+.style-img-3 {
+  background-image: url(./TOSOL_IMG/style-3.jpg);
+  background-size: cover;
+}
+
+.style-img-4 {
+  background-image: url(./TOSOL_IMG/style-4.jpeg);
+  background-size: cover;
+}
+
+.gogo-style-box-1 {
+  grid-column: 1;
+  grid-row: 1;
+  border: solid var(--border-color);
+  border-radius: 8px;
+}
+.gogo-style-box-2 {
+  grid-column: 2;
+  grid-row: 1;
+  border: solid var(--border-color);
+  border-radius: 8px;
+}
+
+.gogo-style-box-3 {
+  grid-column: 3;
+  grid-row: 1;
+  border: solid var(--border-color);
+  border-radius: 8px;
+}
+.gogo-style-box-4 {
+  grid-column: 4;
+  grid-row: 1;
+  border: solid var(--border-color);
+  border-radius: 8px;
+}
+.gogo-style-box-img {
+  width: 100%;
+  height: 230px;
+}
+.gogo-style-box-card {
+  width: 100%;
+  height: 130px;
+  padding: 10px;
+}
+.gogo-style-box-about {
+  width: 100%;
+  height: 72px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px !important;
+}
+.gogo-style-box-action {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  height: 26px;
+  border: solid var(--border-color);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+.style-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.gogo-body-6-box {
+  width: 1180px;
+  height: 380px;
+  margin: auto;
+  margin-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.gogo-comic-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 1100px;
+  height: 29px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.gogo-comic-body {
+  display: grid;
+  grid-template-columns: repeat(2, 49%);
+  grid-template-rows: 330px;
+  width: 1100px;
+  height: 330px;
+  gap: 20px;
+}
+.gogo-comic-box-1 {
+  grid-column: 1;
+  grid-row: 1;
+  border-radius: 8px;
+}
+.gogo-comic-box-2 {
+  grid-column: 2;
+  grid-row: 1;
+  border-radius: 8px;
+}
+.gogo-comic-box-img {
+  width: 100%;
+  height: 200px;
+}
+.comic-img-1 {
+  background-image: url(./TOSOL_IMG/comic-1.jpeg);
+  background-size: cover;
+}
+
+.comic-img-2 {
+  background-image: url(./TOSOL_IMG/comic-2.jpeg);
+  background-size: cover;
+}
+.gogo-comic-box-card {
+  width: 100%;
+  height: 130px;
+  padding: 10px;
+  border: solid var(--border-color);
+}
+.gogo-comic-box-about {
+  width: 100%;
+  height: 72px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.gogo-comic-box-action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 100%;
+  height: 26px;
+  margin-top: 10px;
+  padding-top: 5px;
+  border: solid var(--border-color);
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+.body_7 {
+  background-color: #1a1a1a;
+  width: 100%;
+  margin-top: 60px;
+  padding-top: 50px;
+}
+.gogo-body-7-box {
+  width: 1180px;
+  height: 768px;
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.gogo-seen-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 1100px;
+  height: 29px;
+  margin-bottom: 20px;
+}
+.gogo-seen-header-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--box-1-background);
+  margin-bottom: 5px;
+}
+.gogo-seen-body {
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: repeat(2, 323px);
+  width: 1100px;
+  height: 680px;
+  gap: 15px;
+}
+.gogo-seen-box-1 {
+  grid-column: 1;
+  grid-row: 1;
+  border-radius: 8px;
+}
+.gogo-seen-box-2 {
+  grid-column: 2;
+  grid-row: 1;
+  border-radius: 8px;
+}
+.gogo-seen-box-3 {
+  grid-column: 3;
+  grid-row: 1;
+
+  border-radius: 8px;
+}
+.gogo-seen-box-4 {
+  grid-column: 4;
+  grid-row: 1;
+  border-radius: 8px;
+}
+.gogo-seen-box-5 {
+  grid-column: 1;
+  grid-row: 2;
+  border-radius: 8px;
+}
+.gogo-seen-box-6 {
+  grid-column: 2;
+  grid-row: 2;
+  border-radius: 8px;
+}
+.gogo-seen-box-7 {
+  grid-column: 3;
+  grid-row: 2;
+  border-radius: 8px;
+}
+.gogo-seen-box-8 {
+  grid-column: 4;
+  grid-row: 2;
+  border-radius: 8px;
+}
+
+.gogo-seen-title {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--seen-color);
+}
+
+.gogo-seen-action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 100%;
+  height: 20px;
+}
+
+.seen-number {
+  font-size: 12px;
+  color: var(--seen-color);
+}
+
+.gogo-seen-img {
+  width: 100%;
+  height: 170px;
+  border-radius: 8px;
+}
+
+.seen-img-1 {
+  background-image: url(./TOSOL_IMG/seen-1.jpg);
+  background-size: cover;
+}
+
+.seen-img-2 {
+  background-image: url(./TOSOL_IMG/seen-2.jpg);
+  background-size: cover;
+}
+
+.seen-img-3 {
+  background-image: url(./TOSOL_IMG/seen-3.jpg);
+  background-size: cover;
+}
+
+.seen-img-4 {
+  background-image: url(./TOSOL_IMG/seen-4.jpg);
+  background-size: cover;
+}
+
+.seen-img-5 {
+  background-image: url(./TOSOL_IMG/seen-5.jpeg);
+  background-size: cover;
+}
+
+.seen-img-6 {
+  background-image: url(./TOSOL_IMG/seen-6.jpg);
+  background-size: cover;
+}
+
+.seen-img-7 {
+  background-image: url(./TOSOL_IMG/seen-7.jpg);
+  background-size: cover;
+}
+
+.seen-img-8 {
+  background-image: url(./TOSOL_IMG/seen-8.jpg);
+  background-size: cover;
+}
+
+.gogo-body-8-box {
+  width: 1180px;
+  height: 248px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  border: solid aqua;
+}
+.gogo-footer-body {
+  width: 100%;
+  height: 148px;
+  border: solid black;
+}
+.gogo-body-9-box {
+  width: 1180px;
+  height: 348px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: auto;
+  margin-top: 50px;
+}
+.gogo-technology-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  height: 28px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.gogo-technology-body {
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: 300px;
+  width: 1100px;
+  height: 300px;
+  gap: 15px;
+}
+.gogo-technology-box-1 {
+  grid-column: 1;
+  grid-row: 1;
+  border: solid var(--border-color);
+  border-radius: 8px;
+}
+.gogo-technology-box-2 {
+  grid-column: 2;
+  grid-row: 1;
+  border-radius: 8px;
+  border: solid var(--border-color);
+}
+.gogo-technology-box-3 {
+  grid-column: 3;
+  grid-row: 1;
+  border-radius: 8px;
+  border: solid var(--border-color);
+}
+.gogo-technology-box-4 {
+  grid-column: 4;
+  grid-row: 1;
+  border-radius: 8px;
+  border: solid var(--border-color);
+}
+.gogo-technology-img {
+  width: 264px;
+  height: 170px;
+  padding: 30px;
+}
+.img-1 {
+  border-radius: 8px;
+  background-image: url(./TOSOL_IMG/tehnologo-1.jpg);
+  background-size: cover;
+}
+.img-2 {
+  background-image: url(./TOSOL_IMG/tehnologi-2.jpg);
+  background-size: cover;
+  border-radius: 8px;
+}
+.img-3 {
+  background-image: url(./TOSOL_IMG/tehnologo-3.jpg);
+  background-size: cover;
+  border-radius: 8px;
+}
+.img-4 {
+  background-image: url(./TOSOL_IMG/tehnologi-4.jpg);
+  background-size: cover;
+  border-radius: 8px;
+}
+.gogo-technology-card {
+  width: 264px;
+  height: 130px;
+  padding: 10px;
+}
+.gogo-technology-about {
+  width: 100%;
+  height: 72px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.gogo-technology-action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 100%;
+  height: 26px;
+  margin: 10px 0px 0px;
+  padding: 5px 0px 0px;
+  border: 2px solid var(--border-color);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}

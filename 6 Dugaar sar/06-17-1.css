@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+}
+#hur {
+  border-style: solid;
+  color: green;
+  height: 400px;
+  text-align: center;
+}
+.inline {
+  border-style: solid;
+  display: inline;
+  color: white;
+  font-size: 40px;
+  background-color: green;
+}
