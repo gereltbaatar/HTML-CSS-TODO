@@ -23,7 +23,7 @@ body {
 
 .main-container {
   width: 1200px;
-  margin-top: auto;
+  margin: auto;
 }
 
 .share-icon {
